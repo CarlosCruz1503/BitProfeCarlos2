@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Rick y Morty</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/latest/normalize.css">
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos.css'>
+</head>
+
+<body>
+    <header class="Titulo">
+        <h1>Personajes Rick y Morty</h1>
+    </header>
+    <button onclick="traerAsyncRick(2, 'Dead')"> Traer Personajes pagina 2 Muertos</button>
+    <button onclick="traerAsyncRick(2, 'Alive')"> Traer Personajes pagina 2 Vivos</button>
+    <button onclick="traerAsyncRick(3, 'Dead')"> Traer Personajes pagina 3 Muertos</button>
+    <button onclick="traerAsyncRick(3, 'Alive')"> Traer Personajes pagina 3 Vivos</button>
+    <button onclick="traerAsyncRick(4, 'Dead')"> Traer Personajes pagina 4 Muertos</button>
+    <button onclick="traerAsyncRick(4, 'Alive')"> Traer Personajes pagina 4 Vivos</button>
+    <main>
+        <section id="personajes">
+        </section>
+    </main>
+</body>
+<script src='script.js'></script>
+
+</html>
